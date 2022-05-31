@@ -1,36 +1,40 @@
-.main{
-margin-top: 40px;
-margin-left: 40px;
+.image{
+    border-radius: 1px;
+    width: 290px;
+    overflow: hidden;
+    /* box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.6); */
 }
-.main h1{
-    margin-top: 24px;
-    margin-bottom: 0px;
+.image:hover{
+    box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.6);
+
+}
+.image img{
+    height: 290px;
+    width: 290px;
+
+}
+.image h1{
+    font-size: 15px;
+    color: #0F5EF0;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 16px;
     font-family: 'Source Sans Pro';
-    font-size: 14px;
-    color: #1A1A1A;
 }
-.main button{
-    margin-top: 32px;
-height: 36px;
-background-color: #0063E6;
-width: 300px;
-height: 36px;
-border: none;
-border-radius: 5px;
-color: white;
-font-family: 'Source Sans Pro';
-}
-.main button:hover{
-    background-color: #F0F6FF;
-    color: black;
-}
-.main input{
-    width: 300px;
-    height: 36px;
-    border-radius: 5px;
-    outline: 1px;
-    margin-top: 0;
+.image h2{
+    font-size: 12px;
+    color: #7A8594;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-left: 16px;
     font-family: 'Source Sans Pro';
-    font-size: 14px;
-    color: #737373;
+}
+.image h3{
+    font-size: 12px;
+    color: #7A8594;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    margin-left: 16px;
+    font-family: 'Source Sans Pro';
 }
